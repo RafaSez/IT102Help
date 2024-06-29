@@ -11,3 +11,7 @@ I can't get the inputted text to populate into a seperate line when I test it in
 
 - Can you tell me where you have tried to use a break element between the Candidate Name and Email? Also think carefully about which function you want to utilize the break element.
 - Let me know if you still can't figure it out and I'll give you another hint.
+
+Rafa
+I was essentially trying to input the break like this: (prompt("Candidate Name<br>","")
+After a lot of trial and error (and a walk) I ended up with: ("Name: " + prompt("Candidate Name","") + "<br>") after every input so that it populates into a seperate line each time. Thank you!
